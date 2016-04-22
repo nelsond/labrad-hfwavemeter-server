@@ -19,19 +19,10 @@ $ export LABRADHOST=<hostname or ip>
 $ export LABRADPASSWORD=<password>
 ```
 
-### Configuration
+### Wavemeter control software
 
-Create a configuration file with the ip/hostname and port of the
-M-squared ICE module.
-
-```shell
-$ cp config.example.json config.json
-$ vim config.json
-...
-```
-
-*Make sure the wavemeter is connected to the same machine and the
-control software is running.*
+Make sure the wavemeter is connected to the same machine and the
+control software is running.
 
 ## Example usage
 
